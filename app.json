@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "crou-app",
-    "slug": "crou-app",
+    "slug": "crou",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -11,6 +11,7 @@
     "ios": {
       "supportsTablet": true
     },
+    "jsEngine": "hermes",
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
@@ -36,6 +37,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ada2f230-61e9-49ce-833c-daba4e24a387"
+      }
+    },
+    "owner": "gocheat"
   }
 }
